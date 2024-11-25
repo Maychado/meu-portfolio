@@ -93,7 +93,7 @@ p{
 /***********Navbar***********/
 
 .custom-navbar{
-    background-color: #6F77F4;
+    background-color: #6F77F4; /*esse foi o único valor que eu consegui ajustar da nav do boostratp. como eu deixo a logo e os itens da nav separados? e como eu mudo a font, cor hover e active dos itens?*/
 }
 
 /**********************HOME**********************/
@@ -126,7 +126,7 @@ p{
 .projetos_cabeçalho {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; /*nao consegui deixar essa imagem no canto direito*/
     width: 100%;
 }
 
@@ -134,7 +134,7 @@ p{
     .projetos_cabeçalho {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-between; 
         width: 100%;
     }
 }
@@ -147,7 +147,7 @@ p{
     justify-content: center;
 }
 
-@media (min-width: 600px) {  /*nao funcionou*/
+@media (min-width: 600px) {  /*nao consegui deixar essa imagem maior para telas maiores*/
     .projetos_ilustraçao {
         width: 217px;
         height: auto;
@@ -444,7 +444,7 @@ p{
     text-align: center;
 }
 
-.contato_inputs{
+.contato_inputs{ /*nao consegui editar os inputs do boostratrap (cores), nem ajustar o tamanho no container*/
     background-color: white;
     display: flex;
     flex-direction: column;

@@ -167,6 +167,14 @@ p{
 }
 
 @media (min-width: 600px) {
+
+    .projetos{
+        background-color: #FFD845;
+        margin: 40px 32px;
+        display: flex;
+        flex-direction: column;
+    }
+    
     .projetos_cabeçalho {
         display: flex;
         flex-direction: row;
